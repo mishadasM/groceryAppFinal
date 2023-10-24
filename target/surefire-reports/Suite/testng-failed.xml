@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.obsqura.listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Test8(failed)" verbose="0">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="com.obsqura.tests.PushNotificationTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="MyNotifications"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.PushNotificationTest -->
+    </classes>
+  </test> <!-- Test8(failed) -->
+  <test thread-count="5" parallel="tests" name="Test9(failed)" verbose="0">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="com.obsqura.tests.AddAdminUsersTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="AddMyAdminUser"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.AddAdminUsersTest -->
+    </classes>
+  </test> <!-- Test9(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.obsqura.listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.obsqura.tests.LoginTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="MyLoginTest"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.LoginTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="com.obsqura.tests.SearchProductTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="MySearchProductTest"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.SearchProductTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="com.obsqura.tests.CreateandDeleteExpense">
+        <methods>
+          <include name="TearDown"/>
+          <include name="InitializeDriver"/>
+          <include name="MyCreateDeleteExpense"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.CreateandDeleteExpense -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" name="Test4(failed)">
+    <classes>
+      <class name="com.obsqura.tests.CreateDeliveryBoy">
+        <methods>
+          <include name="TearDown"/>
+          <include name="CreateDeliveryBoyTest"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.CreateDeliveryBoy -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test thread-count="5" name="Test5(failed)">
+    <classes>
+      <class name="com.obsqura.tests.UpdateContact">
+        <methods>
+          <include name="TearDown"/>
+          <include name="UpdateContactTest"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.UpdateContact -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+  <test thread-count="5" name="Test6(failed)">
+    <classes>
+      <class name="com.obsqura.tests.AddLocationTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="AddMyLocation"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.AddLocationTest -->
+    </classes>
+  </test> <!-- Test6(failed) -->
+  <test thread-count="5" name="Test7(failed)">
+    <classes>
+      <class name="com.obsqura.tests.EditPaymentTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="EditMyPayment"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.EditPaymentTest -->
+    </classes>
+  </test> <!-- Test7(failed) -->
+  <test thread-count="5" name="Test8(failed)">
+    <classes>
+      <class name="com.obsqura.tests.PushNotificationTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="MyNotifications"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.PushNotificationTest -->
+    </classes>
+  </test> <!-- Test8(failed) -->
+  <test thread-count="5" name="Test9(failed)">
+    <classes>
+      <class name="com.obsqura.tests.AddAdminUsersTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="AddMyAdminUser"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.AddAdminUsersTest -->
+    </classes>
+  </test> <!-- Test9(failed) -->
+  <test thread-count="5" name="Test10(failed)">
+    <classes>
+      <class name="com.obsqura.tests.AddNewsTest">
+        <methods>
+          <include name="AddMyNews"/>
+          <include name="TearDown"/>
+          <include name="InitializeDriver"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.AddNewsTest -->
+    </classes>
+  </test> <!-- Test10(failed) -->
+</suite> <!-- Failed suite [Suite] -->
